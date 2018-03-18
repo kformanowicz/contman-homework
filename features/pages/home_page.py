@@ -17,5 +17,5 @@ class HomePage(BasePage):
 
 
 class HomePageLocators(object):
-    CONTACT_LINK = (By.CSS_SELECTOR, '[href="contact.html"]')
-    HAMBURGER_MENU = (By.CLASS_NAME, 'navbar-toggler')
+    CONTACT_LINK = (By.CSS_SELECTOR, "[href=\"contact.html\"]")
+    HAMBURGER_MENU = (By.CLASS_NAME, "navbar-toggler")
