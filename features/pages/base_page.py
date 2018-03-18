@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,6 +8,7 @@ from features.browser import Browser
 
 class BasePage(ABC, Browser):
 
+    @abstractmethod
     def __init__(self, url):
         super(BasePage, self).__init__()
         self.url = url
