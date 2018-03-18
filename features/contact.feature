@@ -1,6 +1,6 @@
 Feature: Contact Page
 
-  Scenario: Phone number on contact page
+  Scenario: Phone and fax numbers on contact page
     Given I am on home page
     When I click on "Contact" tab
     Then "Contact" page is opened
