@@ -1,6 +1,6 @@
 from features.browser import Browser
-from features.pages.home_page import HomePage
 from features.pages.contact_page import ContactPage
+from features.pages.home_page import HomePage
 
 
 def before_all(context):

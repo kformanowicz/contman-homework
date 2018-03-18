@@ -10,7 +10,7 @@ class HomePage(BasePage):
 
     def go_to_contact(self):
         if self.driver.find_element(*HomePageLocators.HAMBURGER_MENU).is_displayed():
-            self.click_element(*HomePageLocators.HAMBURGER_MENU)\
+            self.click_element(*HomePageLocators.HAMBURGER_MENU) \
                 .wait_for_element_visibility(*HomePageLocators.CONTACT_LINK)
         self.click_element(*HomePageLocators.CONTACT_LINK)
         return self
